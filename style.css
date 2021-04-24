@@ -30,8 +30,8 @@ body{
 	background:linear-gradient(#D2FCF9,#F1A7FB);
 	background-repeat:no-repeat;
 	background-size: cover;
-	height: 100vh;
-	overflow: auto;
+	height: 500vh;
+	overflow: scroll;
 
 
 }
@@ -64,4 +64,22 @@ li{
 	background:white;
 	opacity:70%;
 	border-radius:30px;
+}
+.testArea{
+	background:white;
+	/*width:500px;*/
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 50vh;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  display:flex;
+  border-radius: 40px;
+  text-align:center;
+ 
+}
+.q1C{
+	text-align:center;
+	padding: 10px;
 }
