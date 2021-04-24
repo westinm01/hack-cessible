@@ -68,20 +68,24 @@ li{
 .testArea{
 	background:white;
 	/*width:500px;*/
-	position: absolute;
-  top: 50%;
+	position: relative;
+  top: 25%;
   left: 50%;
-  margin-top: 50vh;
+  /*margin-top: 50vh;*/
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
   display:flex;
   border-radius: 40px;
   text-align:center;
+  justify-content:center;
+  align-items: center;
+  max-width:80vh;
  
 }
 .q1C{
 	text-align:center;
 	padding: 10px;
+<<<<<<< HEAD
 }
 .text{
 	font-size:20px;
@@ -91,4 +95,11 @@ li{
 }
 .home{
 	font-size:20px;
+=======
+
+}
+label input{
+	position:absolute;
+	margin-top:50px;
+>>>>>>> 2cd3546976c6339923505d5d0eb64e191ec5ec80
 }
