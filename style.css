@@ -30,7 +30,7 @@ body{
 	background:linear-gradient(#D2FCF9,#F1A7FB);
 	background-repeat:no-repeat;
 	background-size: cover;
-	height: 500vh;
+	height: 550vh;
 	overflow: scroll;
 
 
@@ -69,17 +69,18 @@ li{
 	background:white;
 	/*width:500px;*/
 	position: relative;
-  top: 25%;
+  top: 45%;
   left: 50%;
   /*margin-top: 50vh;*/
   /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -40%);
   display:flex;
   border-radius: 40px;
   text-align:center;
   justify-content:center;
   align-items: center;
   max-width:80vh;
+  font-size:32px;
  
 }
 .q1C{
@@ -90,4 +91,21 @@ li{
 label input{
 	position:absolute;
 	margin-top:50px;
+
+}
+form img{
+	max-width:399px;
+}
+.resultButton{
+	font-size:48px;
+	font-family: georgia;
+	background:#488EFF;
+	border:none;
+	border-radius:14px;
+	color:white;
+	margin:10px;
+}
+.resultButton:hover{
+	text-decoration:underline;
+	background:#58AFF5;
 }
