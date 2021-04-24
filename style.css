@@ -88,9 +88,21 @@ li{
 	padding: 10px;
 
 }
+.text{
+	font-size:20px;
+}
+.texts{
+	font-size:20px;
+}
+.home{
+	font-size:20px;
+
+
+}
 label input{
 	position:absolute;
 	margin-top:50px;
+
 
 }
 form img{
@@ -108,4 +120,5 @@ form img{
 .resultButton:hover{
 	text-decoration:underline;
 	background:#58AFF5;
+
 }
