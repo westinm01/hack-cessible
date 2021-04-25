@@ -30,7 +30,7 @@ body{
 	background:linear-gradient(#D2FCF9,#F1A7FB);
 	background-repeat:no-repeat;
 	background-size: cover;
-	height: 550vh;
+	height: 500vh;
 	overflow: scroll;
 
 
@@ -81,24 +81,22 @@ li:hover{
 	background:white;
 	/*width:500px;*/
 	position: relative;
-  top: 45%;
+  top: 25%;
   left: 50%;
   /*margin-top: 50vh;*/
   /* bring your own prefixes */
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -50%);
   display:flex;
   border-radius: 40px;
   text-align:center;
   justify-content:center;
   align-items: center;
   max-width:80vh;
-  font-size:32px;
  
 }
 .q1C{
 	text-align:center;
 	padding: 10px;
-
 }
 .text{
 	font-size:20px;
@@ -109,17 +107,12 @@ li:hover{
 .home{
 	font-size:20px;
 
-
 }
 label input{
 	position:absolute;
 	margin-top:50px;
-
-
 }
-form img{
-	max-width:399px;
-}
+
 .resultButton{
 	font-size:48px;
 	font-family: georgia;
@@ -139,4 +132,5 @@ input{
 	
 	font-size:20px;
 	
+
 }
