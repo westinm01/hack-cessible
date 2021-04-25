@@ -112,3 +112,9 @@ label input{
 	position:absolute;
 	margin-top:50px;
 }
+#colortestResults{
+	font-size:45px;
+	font-family: arialnarrow;
+	padding:8px;
+	margin:auto;	
+}
